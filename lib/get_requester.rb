@@ -1,6 +1,6 @@
 class GetRequester
   html = File.read('fixtures/kickstarter.html')
-    kickstarter = Nokogiri::HTML(html)
+  kickstarter = Nokogiri::HTML(html)
 
 
 def method_name
